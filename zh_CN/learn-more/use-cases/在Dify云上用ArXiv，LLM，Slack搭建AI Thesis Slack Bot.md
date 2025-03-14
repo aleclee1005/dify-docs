@@ -1,4 +1,4 @@
-### **在Dify云端构建AI Thesis Slack Bot（结合ArXiv、LLM、Slack）**
+### **在Dify云端构建 AI Thesis Slack Bot（结合 ArXiv、LLM、Slack）**
 
 作者：Alec Lee，2025/03/12
 
@@ -36,8 +36,6 @@
 
 **3\. AI Thesis Slack Bot 的工作流搭建**
 
-**3.1 设计工作流**
-
 a.用户在 Dify AI Thesis Slack Bot 里输入关键词（如"Large Language Model"）。 
 
 b.机器人从 arXiv 检索相关论文，筛选最新的研究成果（例2024 年 1 月 1 日后的论文）。 
@@ -51,21 +49,6 @@ c.使用 GPT-4o 进行智能整理，读取论文并生成摘要，推送到 Sla
 
 d.机器人自动将摘要推送到 Slack，团队成员可以第一时间在 Slack 频道或私聊中查看最新的论文信息。
 
-##### 3.2 主要模块解析
-
-| 模块名称 | 功能描述 |
-| ----- | ----- |
-| ArXiv 论文检索工具 | 连接到 ArXiv 数据库，搜索最新论文 📚 |
-| GPT-4o AI 处理 | 负责读取论文并生成简要摘要 🧠 |
-| Slack 通知工具 | 将整理好的摘要自动推送到 Slack 📩 |
-
-##### 3.3 技术架构
-
-🔹 数据检索： 通过 arXiv API 搜索论文
-
-🔹 AI 处理： 使用 GPT-4o 进行论文摘要生成
-
-🔹 Slack 通知： 通过 Webhook 发送到 Slack 频道
 
 #### **4\. 具体步骤**
 
