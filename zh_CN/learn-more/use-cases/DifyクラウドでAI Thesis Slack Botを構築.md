@@ -23,19 +23,19 @@
 
 OpenAIのアカウント設定画面で**モデルを設定** し、**APIキーを取得・インストール** します。
 
-![API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/001API.jpg)
+![API](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/001API.jpg)
 
 ### 2.2 ArXiv & Slackプラグインのインストール
 
 Difyのツール一覧から、**ArXiv検索ツール** と **Slack連携ツール** をインストールします。
 
-![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/002SlackArXiv.jpg)
+![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/002SlackArXiv.jpg)
 
 ### 2.3 Slackアカウントの作成
 
 [Slackの公式サイト](https://slack.com/intl/en-gb/get-started?entry_point=help_center#/createnew)で**無料のSlackアカウント** を作成します。
 
-![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
+![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/003SlackAccount.jpg)
 
 ## 3. AI Thesis Slack Botのワークフロー構築
 
@@ -55,73 +55,73 @@ Difyのツール一覧から、**ArXiv検索ツール** と **Slack連携ツー�
 
 a. **Difyのホーム画面** で **"Create from Blank"** を選択し、**"Workflow"** を選択。ワークフロー名を（例: *AI Thesis Slack Bot*）と入力。
 
-![Create from Blank](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/004Createfromblank.jpg)
+![Create from Blank](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/004Createfromblank.jpg)
 
 b. Tools のリストから、インストール済みの ArXiv Search を選択。
 
-![Tools ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/005ToolsArXiv.jpg)
+![Tools ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/005ToolsArXiv.jpg)
 
 c. Blocks のリストから LLM を選び、設定済みの OpenAIモデル を指定。
 
-![LLM](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/006LLM.jpg)
+![LLM](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/006LLM.jpg)
 
 d. Tools のリストから、Slack Incoming Webhook を選択し、Authorize をクリックして Slack Webhook URL を追加。
 
-![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/007Slackincomingwebhook.jpg)
+![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/007Slackincomingwebhook.jpg)
 
 ### 4.2 Slack Webhook URLの追加
 
 a. [Slack API管理ページ](https://api.slack.com/apps) にアクセスし、"Create New App" をクリック。
 
-![Slack API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/008Slackapi.jpg)
+![Slack API](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/008Slackapi.jpg)
 
 b. "From scratch" を選択し、アプリ名（例: *AI Thesis Bot*）を入力。メッセージを送信するSlackチャンネルを選択。
 
-![From Scratch](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/009Fromscratch.jpg)
+![From Scratch](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/009Fromscratch.jpg)
 
 c. Incoming Webhooks へ移動し、Activate Incoming Webhooks を有効化。"Add New Webhook to Workspace" をクリックし、Slackチャンネルを選択後、生成された Webhook URL をコピー。
 
-![Incoming Webhooks Activate](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/010IncomingwebhooksActivate.jpg)
+![Incoming Webhooks Activate](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/010IncomingwebhooksActivate.jpg)
 
 d. Slackノードの「Slack Webhook URL」 欄にコピーしたWebhook URLを貼り付け。
 
-![Slack Webhook URL](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/011SlackWehookURL.jpg)
+![Slack Webhook URL](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/011SlackWehookURL.jpg)
 
 e. ワークフローの最後のノードを "End" に設定し、各ノードが適切に接続されていることを確認。次に、各ノードのパラメータを設定。
 
-![End](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/012End.jpg)
+![End](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/012End.jpg)
 
 ### 4.3 各ノードのパラメータ設定
 
 a. Startノード: キーワード検索のパラメータを設定。
 
-![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/013Start.jpg)
+![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013Start.jpg)
 
 b. ArXiv Searchノード: Query String を追加（必要に応じてカスタマイズ可能）。
 
-![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/014ArXivSearch.jpg)
+![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArXivSearch.jpg)
 
 c. LLMノード: モデルの選択, CONTEXTの追加, SYSTEMでPrompt Engineeringを設定（必要に応じて調整）,USERでContextを選択. 
 
-![LLM Context](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/015LLMcontext.jpg)
+![LLM Context](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/015LLMcontext.jpg)
 
 d. Slackノード: Content 欄で LLM/Text String を選択。
 
-![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/016Slackcontent.jpg)
+![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016Slackcontent.jpg)
 
 ### 4.4 テストとデプロイ
 
 a. **デプロイ前にテスト実行** し、ワークフローが正しく動作することを確認。問題がなければ **"Deploy"** をクリック。
 
-![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/017Shiyunxing.jpg)
+![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/017Shiyunxing.jpg)
 
 b. "Large Language Model" を入力し、Difyの検索結果 と Slack通知の内容 が一致しているかをチェック。
 
-![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/018Largelanguagemodel.jpg)
+![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018Largelanguagemodel.jpg)
 
 c. Difyの検索結果とSlackの通知内容が一致していれば成功！🎉
 
-![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/019LastP.jpg)
+![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastP.jpg)
 
 ## 5. 今後の最適化ポイント
 
