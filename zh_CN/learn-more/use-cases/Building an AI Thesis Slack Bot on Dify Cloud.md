@@ -1,12 +1,12 @@
-### **Building an AI Thesis Slack Bot on Dify Cloud** 
+### Building an AI Thesis Slack Bot on Dify Cloud 
 
-### **(Integrating ArXiv, LLM, and Slack)**
+### (Integrating ArXiv, LLM, and Slack)
 
 Author：Alec Lee，2025/03/12
 
-### **1\. Overview**
+### 1. Overview
 
-  With the rapid growth of academic research in the information age, researchers require more efficient ways to access the latest findings. The AI Thesis Slack Bot streamlines this process by leveraging AI-driven automated workflows, enabling users to quickly retrieve arXiv paper summaries within Slack.
+With the rapid growth of academic research in the information age, researchers require more efficient ways to access the latest findings. The AI Thesis Slack Bot streamlines this process by leveraging AI-driven automated workflows, enabling users to quickly retrieve arXiv paper summaries within Slack.
 
 This tool can be used in various real estate-related contexts, such as:
 
@@ -16,27 +16,27 @@ This tool can be used in various real estate-related contexts, such as:
 
 This guide will walk you through setting up the AI Thesis Slack Bot, its core operating principles, and how to maximize its efficiency to enhance productivity in the real estate sector.
 
-### **2\. Preparation**
+### 2. Preparation
 
-#### **2.1 Configuring the OpenAI API**
+#### 2.1 Configuring the OpenAI API
 
 Set up OpenAI in your account’s model settings and install the API key.
 
-![API 设置](https://cdn.jsdelivr.net/gh/aleclee1005/MyPic@main/img/001API.jpg)
+![API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/001API.jpg)
 
-#### **2.2 Installing ArXiv and Slack Plugins**
+#### 2.2 Installing ArXiv and Slack Plugins
 
 Install the ArXiv and Slack tools within the Dify platform.
 
 ![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/002SlackArXiv.jpg)
 
-### **2.3 Creating a Slack Account**
+#### 2.3 Creating a Slack Account
 
 Sign up for a free Slack account on the [official Slack website](https://slack.com/intl/en-gb/get-started?entry_point=help_center#/createnew).
 
-![Slack 账户](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
+![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
 
-## **3\. Setting Up the AI Thesis Slack Bot Workflow**
+### 3. Setting Up the AI Thesis Slack Bot Workflow
 
 The AI Thesis Slack Bot operates through the following automated process:
 
@@ -51,9 +51,9 @@ The AI Thesis Slack Bot operates through the following automated process:
  📌 **Summary:** \[Key takeaways from the paper\]  
 **d.Automated Slack Push:** The bot automatically posts the summary to a designated Slack channel, ensuring that team members can quickly access the latest research updates—whether in a public channel or private messages.
 
-## **4\. Implementation Steps**
+### 4. Implementation Steps
 
-### **4.1 Creating the Workflow**
+#### 4.1 Creating the Workflow
 
 a. On the Dify homepage, select Create from Blank, then choose Workflow and enter a name (e.g., *AI Thesis Slack Bot*).
 
@@ -73,7 +73,7 @@ d. In the Tools section, select the installed Slack Incoming Webhook, click Auth
 
 ![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/007Slackincomingwebhook.jpg)
 
-##### **4.2 Adding the Slack Webhook URL**
+##### 4.2 Adding the Slack Webhook URL
 
 a. Go to the [Slack API Management Page](https://api.slack.com/apps) and click Create New App.
 
@@ -95,7 +95,7 @@ e. After selecting End as the final node in the workflow, ensure that all workfl
 
 ![End](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/012End.jpg)
 
-##### **4.3 Configuring Node Parameters**
+##### 4.3 Configuring Node Parameters
 
 a. Start Node: Set the keyword query parameters.
 
@@ -113,7 +113,7 @@ d. Slack Node: In the Content field, select LLM/Text String.
 
 ![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/016Slackcontent.jpg)
 
-### **4.4 Testing and Deployment**
+#### 4.4 Testing and Deployment
 
 a. Run a test before deployment to ensure the workflow functions correctly. Once verified, click Deploy.
 
@@ -127,7 +127,7 @@ c. If the Dify search results match the Slack notifications, congratulations\! Y
 
 ![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/019LastP.jpg)
 
-### **5\. Future Optimization Directions**
+### 5. Future Optimization Directions
 
 Currently, the AI Thesis Slack Bot primarily focuses on ArXiv paper retrieval and summary delivery. Future improvements could include:
 
@@ -137,6 +137,6 @@ Currently, the AI Thesis Slack Bot primarily focuses on ArXiv paper retrieval an
  ✅ Personalized Recommendations: Suggesting relevant papers based on user interests.  
  ✅ Multi-Platform Support: Enabling compatibility with WhatsApp, Teams, WeChat, and more.
 
-### **6\. Conclusion**
+### 6. Conclusion
 
-  With the AI Thesis Slack Bot, you can automate academic information retrieval, improving research team productivity. If you're interested in further unlocking its potential, consider integrating Dify with a Realtime API to develop advanced applications, such as real-time paper discussions and AI-powered Q\&A, allowing AI to play a greater role in academic collaboration and AI-driven research. 🚀
+With the AI Thesis Slack Bot, you can automate academic information retrieval, improving research team productivity. If you're interested in further unlocking its potential, consider integrating Dify with a Realtime API to develop advanced applications, such as real-time paper discussions and AI-powered Q\&A, allowing AI to play a greater role in academic collaboration and AI-driven research. 🚀
