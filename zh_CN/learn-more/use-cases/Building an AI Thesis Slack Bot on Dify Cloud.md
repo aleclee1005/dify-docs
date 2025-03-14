@@ -38,8 +38,6 @@ Sign up for a free Slack account on the [official Slack website](https://slack.c
 
 ## **3\. Setting Up the AI Thesis Slack Bot Workflow**
 
-## **3.1 Designing the Workflow**
-
 The AI Thesis Slack Bot operates through the following automated process:
 
 **a. User Input:** The user enters a keyword (e.g., *"Large Language Model"*) in the Dify AI Thesis Slack Bot.  
@@ -52,20 +50,6 @@ The AI Thesis Slack Bot operates through the following automated process:
  📆 **Publication Date:** \[Date\]  
  📌 **Summary:** \[Key takeaways from the paper\]  
 **d.Automated Slack Push:** The bot automatically posts the summary to a designated Slack channel, ensuring that team members can quickly access the latest research updates—whether in a public channel or private messages.
-
-### **3.2 Key Module Breakdown**
-
-| Module Name | Function Description |
-| ----- | ----- |
-| **ArXiv Paper Retrieval Tool** | Connects to the ArXiv database to search for the latest academic papers 📚 |
-| **GPT-4o AI Processing** | Reads the retrieved papers and generates concise summaries 🧠 |
-| **Slack Notification Tool** | Automatically pushes the formatted summaries to Slack 📩 |
-
-### **3.3 Technical Architecture**
-
- 🔹 Data Retrieval: Queries academic papers using the ArXiv API  
- 🔹 AI Processing: Generates paper summaries using GPT-4o  
- 🔹 Slack Notification: Sends summaries to Slack channels via Webhooks
 
 ## **4\. Implementation Steps**
 
