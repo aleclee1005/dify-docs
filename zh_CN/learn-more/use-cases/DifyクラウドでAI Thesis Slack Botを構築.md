@@ -109,7 +109,7 @@ d. Slackノード: Content 欄で LLM/Text String を選択。
 
 ![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/016Slackcontent.jpg)
 
-### **4.4 テストとデプロイ**
+### 4.4 テストとデプロイ
 
 a. **デプロイ前にテスト実行** し、ワークフローが正しく動作することを確認。問題がなければ **"Deploy"** をクリック。
 
