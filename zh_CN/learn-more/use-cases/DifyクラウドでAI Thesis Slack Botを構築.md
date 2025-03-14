@@ -1,12 +1,13 @@
-### **DifyクラウドでAI Thesis Slack Botを構築**
+### DifyクラウドでAI Thesis Slack Botを構築
 
-### **（ArXiv、LLM、Slackの統合）**
+### （ArXiv、LLM、Slackの統合）
 
-著者：Alec Lee，2025/03/12
+**著者：Alec Lee**
+**2025/03/12**
 
-## **1\. 概要**
+## 1. 概要
 
-  情報化社会の進展に伴い、学術研究の数は急速に増加しています。研究者は最新の研究成果を効率的に取得する方法を求めています。AI Thesis Slack Bot は、AIによる自動ワークフロー を活用し、Slack上でarXiv論文の要約を素早く取得 できるツールです。
+情報化社会の進展に伴い、学術研究の数は急速に増加しています。研究者は最新の研究成果を効率的に取得する方法を求めています。AI Thesis Slack Bot は、AIによる自動ワークフロー を活用し、Slack上でarXiv論文の要約を素早く取得 できるツールです。
 
 このボットは、以下のような用途で活用できます。
 
@@ -16,27 +17,27 @@
 
 本ガイドでは、AI Thesis Slack Botのセットアップ方法、その基本的な動作原理、そして生産性を向上させる活用方法 について解説します。
 
-## **2\. 準備**
+## 2. 準備
 
-### **2.1 OpenAI APIの設定**
+### 2.1 OpenAI APIの設定
 
 OpenAIのアカウント設定画面で**モデルを設定** し、**APIキーを取得・インストール** します。
 
-![API 设置](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/001API.jpg)
+![API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/001API.jpg)
 
-### **2.2 ArXiv & Slackプラグインのインストール**
+### 2.2 ArXiv & Slackプラグインのインストール
 
 Difyのツール一覧から、**ArXiv検索ツール** と **Slack連携ツール** をインストールします。
 
 ![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/002SlackArXiv.jpg)
 
-### **2.3 Slackアカウントの作成**
+### 2.3 Slackアカウントの作成
 
 [Slackの公式サイト](https://slack.com/intl/en-gb/get-started?entry_point=help_center#/createnew)で**無料のSlackアカウント** を作成します。
 
-![Slack 账户](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
+![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
 
-## **3\. AI Thesis Slack Botのワークフロー構築**
+## 3. AI Thesis Slack Botのワークフロー構築
 
 ##### AI Thesis Slack Botは、以下の手順で動作します。
 
@@ -48,9 +49,9 @@ Difyのツール一覧から、**ArXiv検索ツール** と **Slack連携ツー�
 
 ##### d. Slack通知: 自動的に指定されたSlackチャンネルに要約を投稿し、チームメンバーがリアルタイムで情報を受け取れる ようにします。
 
-## **4\. 実装手順**
+## 4. 実装手順
 
-### **4.1 ワークフローの作成**
+### 4.1 ワークフローの作成
 
 a. **Difyのホーム画面** で **"Create from Blank"** を選択し、**"Workflow"** を選択。ワークフロー名を（例: *AI Thesis Slack Bot*）と入力。
 
@@ -68,7 +69,7 @@ d. Tools のリストから、Slack Incoming Webhook を選択し、Authorize �
 
 ![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/007Slackincomingwebhook.jpg)
 
-### **4.2 Slack Webhook URLの追加**
+### 4.2 Slack Webhook URLの追加
 
 a. [Slack API管理ページ](https://api.slack.com/apps) にアクセスし、"Create New App" をクリック。
 
@@ -90,7 +91,7 @@ e. ワークフローの最後のノードを "End" に設定し、各ノード�
 
 ![End](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/012End.jpg)
 
-### **4.3 各ノードのパラメータ設定**
+### 4.3 各ノードのパラメータ設定
 
 a. Startノード: キーワード検索のパラメータを設定。
 
@@ -122,7 +123,7 @@ c. Difyの検索結果とSlackの通知内容が一致していれば成功！�
 
 ![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/019LastP.jpg)
 
-## **5\. 今後の最適化ポイント**
+## 5. 今後の最適化ポイント
 
 現在、AI Thesis Slack Bot は主に arXivの論文検索と要約通知 にフォーカスしています。今後の改善点として、以下の機能拡張が考えられます。
 
@@ -132,6 +133,6 @@ c. Difyの検索結果とSlackの通知内容が一致していれば成功！�
  ✅ パーソナライズ推奨: ユーザーの関心に基づいて関連論文を推奨  
  ✅ マルチプラットフォーム対応: WhatsApp, Teams, WeChat などにも対応
 
-## **6\. まとめ**
+## 6. まとめ
 
-   AI Thesis Slack Bot を活用することで、学術情報の自動取得・通知を効率化 し、研究チームの生産性を大幅に向上させることができます。さらに、DifyとリアルタイムAPIを統合 することで、リアルタイム論文ディスカッション や AIによる論文Q\&A などの高度なアプリケーションを開発し、AIを学術交流や研究支援により深く活用 することも可能です！ 🚀
+AI Thesis Slack Bot を活用することで、学術情報の自動取得・通知を効率化 し、研究チームの生産性を大幅に向上させることができます。さらに、DifyとリアルタイムAPIを統合 することで、リアルタイム論文ディスカッション や AIによる論文Q\&A などの高度なアプリケーションを開発し、AIを学術交流や研究支援により深く活用 することも可能です！ 🚀
