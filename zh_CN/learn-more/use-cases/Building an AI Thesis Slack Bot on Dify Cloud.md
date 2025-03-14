@@ -23,19 +23,19 @@ This guide will walk you through setting up the AI Thesis Slack Bot, its core op
 
 Set up OpenAI in your account’s model settings and install the API key.
 
-![API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/001API.jpg)
+![API](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/001API.jpg)
 
 #### 2.2 Installing ArXiv and Slack Plugins
 
 Install the ArXiv and Slack tools within the Dify platform.
 
-![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/002SlackArXiv.jpg)
+![Slack ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/002SlackArXiv.jpg)
 
 #### 2.3 Creating a Slack Account
 
 Sign up for a free Slack account on the [official Slack website](https://slack.com/intl/en-gb/get-started?entry_point=help_center#/createnew).
 
-![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/003SlackAccount.jpg)
+![Slack](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/003SlackAccount.jpg)
 
 ### 3. Setting Up the AI Thesis Slack Bot Workflow
 
@@ -60,73 +60,73 @@ a. On the Dify homepage, select Create from Blank, then choose Workflow and ente
 
 Let me know if you need further refinements\! 🚀
 
-![Create from Blank](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/004Createfromblank.jpg)
+![Create from Blank](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/004Createfromblank.jpg)
 
 b. In the Tools section, select the ArXiv Search tool that has already been installed.
 
-![Tools ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/005ToolsArXiv.jpg)
+![Tools ArXiv](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/005ToolsArXiv.jpg)
 
 c. In the Blocks section, choose LLM, and configure it to use the pre-set OpenAI model.
 
-![LLM](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/006LLM.jpg)
+![LLM](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/006LLM.jpg)
 
 d. In the Tools section, select the installed Slack Incoming Webhook, click Authorize, and add the Slack Webhook URL.
 
-![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/007Slackincomingwebhook.jpg)
+![Slack Incoming Webhook](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/007Slackincomingwebhook.jpg)
 
 ##### 4.2 Adding the Slack Webhook URL
 
 a. Go to the [Slack API Management Page](https://api.slack.com/apps) and click Create New App.
 
-![Slack API](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/008Slackapi.jpg)
+![Slack API](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/008Slackapi.jpg)
 
 b. Select "From scratch", enter the app name (e.g., *AI Thesis Bot*), and choose the Slack channel where messages will be sent.
 
-![From Scratch](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/009Fromscratch.jpg)
+![From Scratch](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/009Fromscratch.jpg)
 
 c. Navigate to Incoming Webhooks, enable Activate Incoming Webhooks, then click Add New Webhook to Workspace. Select the Slack channel, then copy the generated Webhook URL.
 
-![Incoming Webhooks Activate](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/010IncomingwebhooksActivate.jpg)
+![Incoming Webhooks Activate](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/010IncomingwebhooksActivate.jpg)
 
 d. Paste the Webhook URL into the Slack Webhook URL field in the Slack node.
 
-![Slack Webhook URL](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/011SlackWehookURL.jpg)
+![Slack Webhook URL](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/011SlackWehookURL.jpg)
 
 e. After selecting End as the final node in the workflow, ensure that all workflow nodes are properly connected. Next, proceed to configure the parameters for each node.
 
-![End](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/012End.jpg)
+![End](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/012End.jpg)
 
 ##### 4.3 Configuring Node Parameters
 
 a. Start Node: Set the keyword query parameters.
 
-![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/013Start.jpg)
+![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013Start.jpg)
 
 b. ArXiv Search Node: Add the Query String content (adjustable based on requirements).
 
-![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/014ArXivSearch.jpg)
+![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArXivSearch.jpg)
 
 c. LLM Node: Select the AI model, add CONTEXT, customize Prompt Engineering in the SYSTEM section (modifiable as needed), and set Context in the USER section.
 
-![LLM Context](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/015LLMcontext.jpg)
+![LLM Context](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/015LLMcontext.jpg)
 
 d. Slack Node: In the Content field, select LLM/Text String.
 
-![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/016Slackcontent.jpg)
+![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016Slackcontent.jpg)
 
 #### 4.4 Testing and Deployment
 
 a. Run a test before deployment to ensure the workflow functions correctly. Once verified, click Deploy.
 
-![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/017Shiyunxing.jpg)
+![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/017Shiyunxing.jpg)
 
 b. Run a test by entering *Large Language Model*, then verify that the Dify query results and Slack message notifications are consistent.
 
-![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/018Largelanguagemodel.jpg)
+![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018Largelanguagemodel.jpg)
 
 c. If the Dify search results match the Slack notifications, congratulations\! Your workflow is successfully running. 🎉
 
-![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/main/img/019LastP.jpg)
+![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastP.jpg)
 
 ### 5. Future Optimization Directions
 
