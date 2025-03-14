@@ -2,8 +2,8 @@
 
 ### (Integrating ArXiv, LLM, and Slack)
 
-**Author：Alec Lee**
-**2025/03/12**
+Author：Alec Lee
+2025/03/12
 
 ### 1. Overview
 
