@@ -95,7 +95,7 @@ e. ワークフローの最後のノードを "End" に設定し、各ノード�
 
 a. Startノード: キーワード検索のパラメータを設定。
 
-![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013Start.jpg)
+![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013StartNode.jpg)
 
 b. ArXiv Searchノード: Query String を追加（必要に応じてカスタマイズ可能）。
 
