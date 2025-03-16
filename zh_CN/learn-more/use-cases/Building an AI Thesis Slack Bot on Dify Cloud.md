@@ -100,7 +100,7 @@ e. After selecting End as the final node in the workflow, ensure that all workfl
 
 a. Start Node: Set the keyword query parameters.
 
-![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013Start.jpg)
+![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013StartNode.jpg)
 
 b. ArXiv Search Node: Add the Query String content (adjustable based on requirements).
 
