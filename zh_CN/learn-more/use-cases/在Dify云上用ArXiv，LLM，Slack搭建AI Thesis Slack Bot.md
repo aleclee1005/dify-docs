@@ -97,7 +97,7 @@ e.选择工作流最后一个节点End后，整理工作节点组建都链接好
 
 a.Start 节点：设置关键词查询参数。
 
-![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013Start.jpg)
+![Start](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/013StartNode.jpg)
 
 b.ArXiv Search 节点：添加 Query String 内容（可按需求调整）。
 
