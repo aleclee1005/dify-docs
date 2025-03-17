@@ -112,7 +112,7 @@ c. LLM Node: Select the AI model, add CONTEXT, customize Prompt Engineering in t
 
 d. Slack Node: In the Content field, select LLM/Text String.
 
-![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016Slackcontent.jpg)
+![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016SlackEndP.jpg)
 
 #### 4.4 Testing and Deployment
 
