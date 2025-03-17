@@ -113,15 +113,11 @@ d. Slackノード: Content 欄で LLM/Text String を選択。
 
 a. **デプロイ前にテスト実行** し、ワークフローが正しく動作することを確認。問題がなければ **"Deploy"** をクリック。
 
-![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/017Shiyunxing.jpg)
+![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018TestInupt.jpg)
 
-b. "Large Language Model" を入力し、Difyの検索結果 と Slack通知の内容 が一致しているかをチェック。
+b. Difyの検索結果とSlackの通知内容が一致していれば成功！🎉
 
-![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018Largelanguagemodel.jpg)
-
-c. Difyの検索結果とSlackの通知内容が一致していれば成功！🎉
-
-![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastP.jpg)
+![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastPTest.jpg)
 
 ## 5. 今後の最適化ポイント
 
