@@ -118,15 +118,11 @@ d. Slack Node: In the Content field, select LLM/Text String.
 
 a. Run a test before deployment to ensure the workflow functions correctly. Once verified, click Deploy.
 
-![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/017Shiyunxing.jpg)
+![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018TestInupt.jpg)
 
-b. Run a test by entering *Large Language Model*, then verify that the Dify query results and Slack message notifications are consistent.
+b. If the Dify search results match the Slack notifications, congratulations\! Your workflow is successfully running. 🎉
 
-![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018Largelanguagemodel.jpg)
-
-c. If the Dify search results match the Slack notifications, congratulations\! Your workflow is successfully running. 🎉
-
-![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastP.jpg)
+![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastPTest.jpg)
 
 ### 5. Future Optimization Directions
 
