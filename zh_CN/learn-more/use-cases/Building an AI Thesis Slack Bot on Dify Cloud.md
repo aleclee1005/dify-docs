@@ -104,7 +104,7 @@ a. Start Node: Set the keyword query parameters.
 
 b. ArXiv Search Node: Add the Query String content (adjustable based on requirements).
 
-![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArXivSearch.jpg)
+![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArvPara.jpg)
 
 c. LLM Node: Select the AI model, add CONTEXT, customize Prompt Engineering in the SYSTEM section (modifiable as needed), and set Context in the USER section.
 
