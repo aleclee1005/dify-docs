@@ -99,7 +99,7 @@ a. Startノード: キーワード検索のパラメータを設定。
 
 b. ArXiv Searchノード: Query String を追加（必要に応じてカスタマイズ可能）。
 
-![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArXivSearch.jpg)
+![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArvPara.jpg)
 
 c. LLMノード: モデルの選択, CONTEXTの追加, SYSTEMでPrompt Engineeringを設定（必要に応じて調整）,USERでContextを選択. 
 
