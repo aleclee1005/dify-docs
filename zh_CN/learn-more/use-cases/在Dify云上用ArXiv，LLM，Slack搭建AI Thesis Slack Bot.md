@@ -101,7 +101,7 @@ a.Start 节点：设置关键词查询参数。
 
 b.ArXiv Search 节点：添加 Query String 内容（可按需求调整）。
 
-![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArXivSearch.jpg)
+![ArXiv Search](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/014ArvPara.jpg)
 
 c.LLM 节点：选择模型,添加 CONTEXT,在 SYSTEM 里进行 Prompt Engineering（可按需求定制）,在 USER 里选择 Context.
 
