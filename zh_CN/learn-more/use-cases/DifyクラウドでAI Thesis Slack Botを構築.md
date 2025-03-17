@@ -107,7 +107,7 @@ c. LLMノード: モデルの選択, CONTEXTの追加, SYSTEMでPrompt Engineeri
 
 d. Slackノード: Content 欄で LLM/Text String を選択。
 
-![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016Slackcontent.jpg)
+![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016SlackEndP.jpg)
 
 ### 4.4 テストとデプロイ
 
