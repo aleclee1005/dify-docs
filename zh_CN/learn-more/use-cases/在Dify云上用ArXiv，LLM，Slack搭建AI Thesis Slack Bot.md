@@ -109,21 +109,17 @@ c.LLM 节点：选择模型,添加 CONTEXT,在 SYSTEM 里进行 Prompt Engineeri
 
 d.Slack 节点：在 Content 里选择 LLM/Text String。
 
-![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016Slackcontent.jpg)
+![Slack Content](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/016SlackEndP.jpg)
 
 ##### 4.4 测试和发布
 
 a.在发布前 **试运行**，确认工作流程是否跑通后，点击 发布。
 
-![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/017Shiyunxing.jpg)
+![Shiyunxing](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018TestInupt.jpg)
 
-b.运行测试，输入 Large Language Model，检查 Dify 查询结果 和 Slack 消息推送结果 是否一致。
+b. 如果确认到Dify的搜索结果和Slack上的传输内容，恭喜您，跑通了。 
 
-![Large Language Model](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/018Largelanguagemodel.jpg)
-
-c. 如果确认到Dify的搜索结果和Slack上的传输内容，恭喜您，跑通了。 
-
-![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastP.jpg)
+![Last P](https://raw.githubusercontent.com/aleclee1005/MyPic/refs/heads/img/019LastPTest.jpg)
 
 ### 5. 未来优化方向
 
